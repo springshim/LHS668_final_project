@@ -1,5 +1,100 @@
 (function() {
   var questions = [{
+    question: "\n I feel down hearted and blue.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "1.png"
+  }, {
+    question: "\n Morning is when I feel the best.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "2.jpeg"
+  }, {
+    question: "\n I have crying spells or feel like it.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "3.jpg"
+  }, {
+    question: "\n I have trouble sleeping at night.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "4.png"
+  }, {
+    question: "\n I eat as much as I used to.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "5.png"
+  }, {
+    question: "\n I still enjoy sex.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "6.jpg"
+  }, {
+    question: "\n I notice that I am losing weight.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "7.jpeg"
+  }, {
+    question: "\n I have trouble with constipation.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "8.jpg"
+  }, {
+    question: "\n My heart beats faster than usual.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "9.jpeg"
+  }, {
+    question: "\n I get tired for no reason.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "10.jpeg"
+  }, {
+    question: "\n My mind is as clear as it used to be.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "11.jpeg"
+  }, {
+    question: "\n I find it easy to do the things I used to.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "12.jpeg"
+  }, {
+    question: "\n I am restless and can\'t keep still.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "13.png"
+  }, {
+    question: "\n I feel hopeful about the future.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "14.jpeg"
+  }, {
+    question: "\n I am more irritable than usual.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "15.jpeg"
+  }, {
+    question: "\n I find it easy to make decisions.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "16.png"
+  }, {
+    question: "\n I feel that I am useful and needed.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "17.jpeg"
+  }, {
+    question: "\n My life is pretty full.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "18.jpeg"
+  }, {
+    question: "\n I feel that others would be better off if I were dead.",
+    choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
+    correctAnswer: [1, 2, 3, 4],
+    image: "19.jpeg"
+  }, {
     question: "\n I still enjoy the things I used to do.",
     choices: ['A Little of the Time', 'Some of the Time', 'Good Part of the Time', 'Most of the Time'],
     correctAnswer: [1, 2, 3, 4],
